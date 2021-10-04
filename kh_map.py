@@ -6,4 +6,4 @@ import pandas as pd
 df = pd.read_csv(url)
 df.head()
 m = folium.Map(location=kh_gps, zoom_start=16)
-m
+m.save("docs/index.html")
