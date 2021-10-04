@@ -1,4 +1,4 @@
 import folium
 
-m=folium.map()
-m.save("docs/index.htmlpi")
+m=folium.Map()
+m.save("docs/index.html")
